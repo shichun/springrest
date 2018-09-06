@@ -17,7 +17,7 @@ import com.peter.entity.User;
 import com.peter.service.UserService;
 
 @RestController
-public class UserController {
+public class UserController extends BaseController{
 	@Autowired
 	private UserService userService;
 	
